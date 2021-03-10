@@ -20,6 +20,12 @@
   "homepage": "https://github.com/darrylmangibin/ts-server#readme",
   "description": "",
   "dependencies": {
-    "concurrently": "^6.0.0"
+    "concurrently": "^6.0.0",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/cookie-session": "^2.0.42",
+    "@types/express": "^4.17.11"
   }
 }
