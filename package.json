@@ -1,0 +1,25 @@
+{
+  "name": "ts-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrylmangibin/ts-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrylmangibin/ts-server/issues"
+  },
+  "homepage": "https://github.com/darrylmangibin/ts-server#readme",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
